@@ -1,0 +1,77 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+a,a:visited{
+    color: dodgerblue;
+}
+header{
+    margin-bottom: 10px;
+    font-size: 0;
+}
+.header__logotip, .header__slogan{
+    display: inline-block;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.header__logotip{
+    width:30%;
+    background-color: #7e7e83;
+    text-align: center;
+}
+.header__slogan{
+    width: 70%;
+    background-color: #7e7e83;
+}
+.work-area{
+    font-size: 0;
+    padding-bottom: 60px;
+}
+.sidebar,::content{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 30%;
+    background-color: aliceblue;
+}
+.sidebar__zag{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sidebar__menu{
+    padding: 0 0 0 20px;
+    list-style: none;
+
+}
+.content{
+    width: 70%;
+}
+h1{
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+footer.container{
+    text-align: center;
+    background-color: green;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+footer{
+    margin-top: 400px;
+    list-style: none;
+}
